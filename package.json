@@ -1,0 +1,30 @@
+{
+  "name": "tsapp",
+  "version": "1.0.0",
+  "description": "ts review with rxjs",
+  "main": "index.js",
+  "scripts": {
+     "start": "webpack-dev-server --watch --inline",  
+     "postinstall": "typings install" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franzhf/TypeScript_AppReview.git"
+  },
+  "author": "Franz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franzhf/TypeScript_AppReview/issues"
+  },
+  "homepage": "https://github.com/franzhf/TypeScript_AppReview#readme",
+  "dependencies": {
+    "rxjs": "^5.0.0-rc.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^1.3.1",
+    "typescript": "^2.1.4",
+    "typings": "^2.0.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
